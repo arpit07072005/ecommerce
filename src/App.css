@@ -442,4 +442,16 @@ ul{
 	.logincontainer{
 		margin: 0px 10px;
 	}
+	.itemcontainer{
+		margin: 10px;
+		gap: 1px;
+	}
+	.itemimage img{
+		margin-top: 20%;
+		height: 130px;
+		width: 130px;
+	}
+	.cartbutton{
+		margin-left: -90px;
+	}
   }
