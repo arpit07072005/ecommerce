@@ -26,7 +26,7 @@ const Signup = () => {
     try {
       const user = await authService.createAccount(formData);
       console.log("Account created:", user);
-      navigate('/dashboard'); // Replace '/dashboard' with your actual route
+      navigate('/login'); // Replace '/dashboard' with your actual route
     } catch (err) {
       console.error("Signup error:", err.message);
       setError("Signup failed. Please try again.");

@@ -6,12 +6,12 @@ export class Service{
     databases;
     bucket;
 constructor(){
-    this.Client
+    this.client
     .setEndpoint(config.appwriteurl)
 .setProject(config.appwriteprojectid);
 
 this.databases = new Databases(this.client);
-this.bucket = new Storage(this.clint);
+this.bucket = new Storage(this.client);
 }
 async createpost({title ,content,slug , featuredimage,status,userid}){
     try{
