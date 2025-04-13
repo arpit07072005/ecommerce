@@ -13,6 +13,7 @@ import Mensshirt from './components/Mensshirt';
 import Item from './components/Item';
 import Cart from './components/Cart';
 import { CartProvider } from './CartContext';
+import Signup from './components/Signup';
 function App() {
   return (
     <div>
@@ -32,7 +33,7 @@ function App() {
         <Route path="/Mensshirt" element={<Mensshirt/>}/>
         <Route path="/Item/:id" element={<Item/>}/>
         <Route path="/Cart" element={<Cart />}/>
-
+        <Route path="/signup" element={<Signup/>}/>
 
       </Routes>
   
